@@ -1,0 +1,47 @@
+.custom-coupons-wrapper {
+    width: 900px;
+   
+    .img-responsive {
+        width: 100%;
+        height: auto;
+    }
+    .coupons-important-text {
+        margin: 2rem 0;
+        color: #a32628;
+        font-weight: bolder;
+    }
+    .coupons-header {
+        .coupons-title {
+            padding: 0.25rem 0.75rem;
+            color: #a12728;
+            border: 1px solid #a12728;
+            border-radius: 11px;
+            font-size: 3rem;
+        }
+    }
+    p {
+        font-weight: bold;
+        margin: 0.25rem 0;
+    }
+    .coupons-instruction {
+        padding-left: 1.5rem;
+        border-left: 2px dashed #6bbe63;
+        margin-left: 2rem;
+        .coupon-i-item {
+            position: relative;
+            .coupon-i-img {
+                width: 470px;
+            }
+            .coupon-i-number {
+                background: #be1113;
+                padding: 0.1rem 0.5rem;
+                color: white;
+                border-radius: 11px;
+                position: absolute;
+                left: -1.5rem;
+                top: 0;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}
